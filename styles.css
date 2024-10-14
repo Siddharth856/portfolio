@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color: #f4f4f4; /* Light background */
+    color: #333; /* Dark text */
+  }
+  
+  header {
+    background-color: #ffffff; /* White header */
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    color: #ff5722; /* Vibrant accent color */
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    color: #666; /* Softer text color */
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px 0;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    border-bottom: 2px solid #ff5722; /* Accent color */
+    margin-bottom: 20px;
+    color: #ff5722; /* Same accent color */
+  }
+  
+  p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .portfolio-item {
+    background-color: #ffffff; /* White background for items */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  }
+  
+  .portfolio-item h3 {
+    font-size: 1.5rem;
+    color: #ff5722; /* Same accent color */
+  }
+  
+  .portfolio-item a {
+    color: #ff5722; /* Same accent color */
+    text-decoration: none;
+    font-weight: bold; /* Make links stand out */
+  }
+  
+  .portfolio-item a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #ffffff; /* White footer */
+    color: #666; /* Softer text color */
+    border-top: 1px solid #ddd; /* Subtle border on top */
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
